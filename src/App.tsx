@@ -7,7 +7,7 @@ import { ELAPSE_TIME_ERROR } from './constants';
 
 import './App.less';
 
-const { Header, Sider, Content } = Layout;
+const { Header, Content } = Layout;
 
 export type TEntry = {
   action: string;

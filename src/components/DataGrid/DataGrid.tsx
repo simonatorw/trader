@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { PageHeader, Tooltip } from 'antd';
+import { PageHeader } from 'antd';
 import { AgGridReact } from 'ag-grid-react';
 
 import { TEntry } from '../../App';
