@@ -1,0 +1,137 @@
+.ticket {
+  padding: 0 20px;
+
+  .order-entry {
+    width: 800px;
+    margin-top: 20px;
+    background-color: #fefefe;
+
+    .minimize {
+      font-size: 1.2rem;
+      color: #fff;
+      font-weight: bold;
+      line-height: 10px;
+      cursor: pointer;
+    }
+
+    .ant-form-item-label > label {
+      color: #333;
+    }
+
+    .Buy {
+      .ant-select-selection-search {
+        background-color: green;
+      }
+      .ant-select-selection-item {
+        color: white;
+      }
+    }
+
+    .Sell {
+      .ant-select-selection-search {
+        background-color: red;
+      }
+      .ant-select-selection-item {
+        color: white;
+      }
+    }
+  }
+
+  .maximize {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 10px;
+    cursor: pointer;
+  }
+
+  .ant-card-bordered {
+    border-color: #ddd;
+  }
+
+  .ant-card-small > .ant-card-head {
+    background-color: #ccc;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .hide {
+    animation: bye 2s both;
+  }
+  
+  @keyframes bye {
+    0% {
+      opacity: .9;
+      height: 290px;
+    }
+  
+    10% {
+      opacity: .8;
+      height: 280px;
+    }
+  
+    20% {
+      opacity: .7;
+      height: 270px;
+    }
+  
+    30%, 40% {
+      opacity: .6;
+      height: 260px;
+    }
+  
+    50% {
+      opacity: .3;
+    }
+  
+    60% {
+      opacity: .2;
+    }
+  
+    70%, 80%, 90% {
+      opacity: .1;
+      height: 1px;
+    }
+  
+    100% {
+      opacity: 0;
+      width: 0;
+      height: 0;
+      margin: 0;
+      display: none;
+    }
+  }
+
+  .show {
+    animation: hello 1.3s both;
+  }
+  
+  @keyframes hello {
+    0% {
+      opacity: 0;
+    }
+  
+    50% {
+      opacity: 0;
+      width: initial;
+      height: initial;
+      margin: initial;
+    }
+
+    60% {
+      opacity: .8;
+      background-color: #666;
+    }
+  
+    70%, 80%, 90% {
+      opacity: .9;
+      background-color: initial;
+    }
+  
+    100% {
+      opacity: 1;
+      display: block;
+    }
+  }
+}

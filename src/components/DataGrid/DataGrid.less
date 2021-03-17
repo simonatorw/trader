@@ -1,0 +1,52 @@
+.data-grid {
+  padding: 0 20px;
+  
+  .section-header {
+    padding-left: 0px;
+
+    .ant-page-header-heading-title {
+      color: #333;
+    }
+  }
+
+  .ag-theme-alpine.grid {
+    width: 100%;
+    height: 500px;
+    color: #000;
+    
+    .ag-root-wrapper {
+      border: 0;
+      background-color: transparent;
+
+      .ag-header {
+        background-color: #ddd;
+        border-bottom-color: #666;
+        
+        .ag-cell-label-container {
+          color: #666;
+          text-transform: uppercase;
+        }
+        .ag-header-cell {
+          padding-left: 6px;
+          padding-right: 6px;
+        }
+      }
+
+      .ag-row {
+        background-color: transparent;
+        border: 0;
+
+        .ag-cell {
+          color: #000;
+          padding-left: 6px;
+          padding-right: 6px;
+        }
+      }
+
+      .ag-body-horizontal-scroll {
+        display: none;
+      }
+    }
+  }
+  
+}
